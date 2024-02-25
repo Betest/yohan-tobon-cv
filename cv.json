@@ -60,7 +60,7 @@
       "endDate": "2012-06-01",
       "summary": "semillero de Software Libre",
       "highlights": [
-        ""
+        "test"
       ]
     }
   ],
@@ -421,7 +421,8 @@
       "highlights": [
         "En desarrollo"
       ],
-      "url": "#"
+      "url": "#",
+      "github": ""
     }
   ]
 }
