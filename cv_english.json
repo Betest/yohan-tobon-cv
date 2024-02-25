@@ -1,0 +1,427 @@
+{
+  "basics": {
+    "name": "J. Yohan Tobon Cataño",
+    "label": "FullStack Developer with over 3 years of experience.",
+    "image": "/me.webp",
+    "email": "yohan.tob20@gmail.com",
+    "phone": "+57 000 0000",
+    "url": "https://github.com/Betest",
+    "summary": "+3 years of experience as a Developer. Passionate about technology, constantly seeking knowledge, aiming to elevate my professional profile and add value at all times.",
+    "location": {
+      "address": "",
+      "postalCode": "050010",
+      "city": "Medellin",
+      "countryCode": "ES",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "J. Yohan Tobon",
+        "url": "https://www.linkedin.com/in/yohan-tobon-catano"
+      },
+      {
+        "network": "GitHub",
+        "username": "Betest",
+        "url": "https://github.com/Betest"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "QVision Technologies",
+      "position": "Intermediate Development Analyst",
+      "url": "https://qvisiontechnologies.com/en/home",
+      "startDate": "2022-08-24",
+      "endDate": null,
+      "summary": "Analysis and refactoring of legacy code, implementation of improvements, development of user stories (frontend and backend). Adjustment of data model, implementation of payment system, and payment gateway.",
+      "highlights": [
+        "Started the company"
+      ]
+    },
+    {
+      "name": "Cidenet",
+      "position": "Development Analyst",
+      "url": "https://cidenet.com.co",
+      "startDate": "2020-01",
+      "endDate": "2021-11",
+      "summary": "Support in user stories, corrections, and end-to-end development of requirements, unit testing, proof of concepts for new functionalities.",
+      "highlights": [
+        "Started the company"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Free Software Seedbed",
+      "position": "Volunteer",
+      "url": "#",
+      "startDate": "2012-01-01",
+      "endDate": "2012-06-01",
+      "summary": "Free Software Seedbed",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "CESDE",
+      "url": "https://www.cesde.edu.co",
+      "area": "Software Development",
+      "studyType": "Professional Technician",
+      "startDate": "2017-06-01",
+      "endDate": "2019-06-17",
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "ITM University Institution",
+      "url": "https://www.itm.edu.co",
+      "area": "Information Systems Engineering",
+      "studyType": "University",
+      "startDate": "2013-02-07",
+      "endDate": "2015-06-18",
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "ACAMICA",
+      "url": "https://www.digitalhouse.com/co",
+      "area": "Multiparadigm Simulation Algorithms in Business",
+      "studyType": "Course",
+      "startDate": "2015-01-01",
+      "endDate": "2015-02-01",
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Average",
+      "date": "2019-06-18",
+      "awarder": "CESDE",
+      "summary": "Best average among graduates."
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Python Essentials 1",
+      "date": "2023-10-23",
+      "issuer": "Cisco",
+      "url": "https://www.credly.com/badges/4820f2a6-1cd4-4ce9-a551-d1c41b65e5ee/linked_in_profile"
+    },
+    {
+      "name": "NestJs: Professional NestJs Microservices with AWS, Docker",
+      "date": "2023-11-06",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-1a34e0eb-876d-4e42-9534-aa869a6ca7d9/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2015-01-01",
+      "url": "#",
+      "summary": "Description…"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Java",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "Python",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Lambdas",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Rust",
+      "level": "Basic",
+      "keywords": [
+        "Backend",
+        "Fullstack",
+        "Frontend",
+        "WebAssembly"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Lambdas",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Azure",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Lambdas",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CICD",
+      "level": "Intermediate",
+      "keywords": [
+        "Deployment",
+        "Server"
+      ]
+    },
+    {
+      "name": "ElasticSearch",
+      "level": "Basic/Intermediate",
+      "keywords": [
+        "Backend",
+        "Lambdas",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "Docker",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Server"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
+      ]
+    },
+    {
+      "name": "Lambdas",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Lambdas"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Advanced",
+      "keywords": [
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "DjangoRestFramework",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Lambdas",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Vuejs",
+      "level": "Basic",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "level": "Basic",
+      "keywords": [
+        "Mobile Development",
+        "Frontend",
+        "UI"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development",
+        "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Basic",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
+      ]
+    },
+    {
+      "name": "CleanCode",
+      "level": "Intermediate",
+      "keywords": [
+        "Clean code",
+        "Best practices",
+        "SOLID",
+        "KISS",
+        "DRY"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Basic",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "React Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Redux",
+      "level": "Intermediate",
+      "keywords": [
+        "Package",
+        "Store management",
+        "Library"
+      ]
+    },
+    {
+      "name": "Pinia",
+      "level": "Intermediate",
+      "keywords": [
+        "Package",
+        "Store management",
+        "Library"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Basic"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
+  "projects": [
+    {
+      "name": "To be uploaded...",
+      "isActive": true,
+      "description": "In 🛠️🔧🪛",
+      "highlights": [
+        "In development"
+      ],
+      "url": "#"
+    }
+  ]
+}

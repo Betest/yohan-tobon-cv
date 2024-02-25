@@ -1,0 +1,98 @@
+---
+import { skills } from "@cv"
+import Section from "../Section.astro"
+import HTML from "@/icons/html.astro"
+import CSS from "@/icons/css.astro"
+import JavaScript from "@/icons/javascript.astro"
+import TypeScript from "@/icons/type.astro"
+import React from "@/icons/react.astro"
+import Node from "@/icons/node.astro"
+import MySQL from "@/icons/sql.astro"
+import Git from "@/icons/git.astro"
+import GitHub from "@/icons/GitHub.astro"
+import Tailwind from "@/icons/tailwind.astro"
+import Next from "@/icons/next.astro"
+import Angular from "@/icons/angular.astro"
+import Python from "@/icons/python.astro"
+import ElasticSearch from "@/icons/elastic.astro"
+import Lambdas from "@/icons/lambdas.astro"
+import AWS from "@/icons/aws.astro"
+import Azure from "@/icons/azure.astro"
+import DjangoRestFramework from "@/icons/django.astro"
+import Vuejs from "@/icons/vue.astro"
+import Rust from "@/icons/rust.astro"
+import CleanCode from "@/icons/cleancode.astro"
+import Flutter from "@/icons/flutter.astro"
+import Docker from "@/icons/docker.astro"
+import Java from "@/icons/java.astro"
+import CICD from "@/icons/cicd.astro"
+import Pinia from "@/icons/pinia.astro"
+import Redux from "@/icons/redux.astro"
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  TypeScript,
+  React,
+  Node,
+  MySQL,
+  Git,
+  GitHub,
+  Next,
+  Tailwind,
+  Angular,
+  Python,
+  ElasticSearch,
+  Lambdas,
+  AWS,
+  Azure,
+  DjangoRestFramework,
+  Vuejs,
+  Rust,
+  CleanCode,
+  Flutter,
+  Docker,
+  Java,
+  CICD,
+  Pinia,
+  Redux,
+}
+---
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "Next.js" ? "Next" : name
+        const Icon = SKILLS_ICONS[iconName]
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        )
+      })
+    }
+  </ul>
+</Section>
+
+<style>
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
+</style>

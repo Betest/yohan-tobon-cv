@@ -1,1 +1,5 @@
-# yohan-tobon-cv
+# J. Yohan Tobon
+
+## 🔑 Licencia
+
+[MIT](LICENSE.txt)
