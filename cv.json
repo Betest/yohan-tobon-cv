@@ -34,7 +34,7 @@
       "url": "https://qvisiontechnologies.com/es/inicio-es",
       "startDate": "2022-08-24",
       "endDate": null,
-      "summary": "Analisis y refactorización código legacy, implementación de mejoras, desarrollo de historias de usuario (frontend y backend). Ajuste modelo de datos, implementación sistema de pagos y pasarela de pagos.",
+      "summary": "Analisis y refactorización código legacy, implementación de mejoras, desarrollo de historias de usuario. Ajuste modelo de datos, implementación sistema de pagos y pasarela de pagos. \nDjango rest framework - Postgresql - React - Jenkins - Gitlab.",
       "highlights": [
         "Started the company"
       ]
@@ -45,7 +45,7 @@
       "url": "https://cidenet.com.co",
       "startDate": "2020-01",
       "endDate": "2021-11",
-      "summary": "Acompañamiento en historias de usuarios, correcciones y desarrollo de requerimientos de inicio a fin, pruebas unitarias, pruebas de conceptos para nuevas funcionalidades.",
+      "summary": "Acompañamiento en historias de usuarios, correcciones y desarrollo de requerimientos de inicio a fin, pruebas unitarias, pruebas de conceptos para nuevas funcionalidades. \nJava - Lambdas - Elastic Search - PostgreSQL - Angular - React - AWS - Azure - Azure Devops",
       "highlights": [
         "Started the company"
       ]
