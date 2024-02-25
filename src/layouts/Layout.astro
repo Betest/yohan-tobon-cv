@@ -39,6 +39,9 @@ const { image, summary, url } = basics
 </html>
 
 <style is:global>
+  :root {
+    color-scheme: light dark;
+  }
   html {
     font-family:
       Menlo,
@@ -47,7 +50,6 @@ const { image, summary, url } = basics
       "Courier New",
       Courier,
       monospace;
-    background: #fff;
     letter-spacing: -0.025rem;
   }
 
@@ -119,6 +121,11 @@ const { image, summary, url } = basics
 
     article {
       break-inside: avoid;
+    }
+  }
+  @media (prefers-color-scheme: dark) {
+    body {
+      color: rgba(255, 255, 255, 0.9);
     }
   }
 </style>

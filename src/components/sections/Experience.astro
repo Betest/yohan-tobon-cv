@@ -62,7 +62,7 @@ import { work } from "@cv"
     text-decoration: underline;
   }
 
-  article h4 {
+   h4 {
     color: #222;
     font-weight: 400;
   }
@@ -83,6 +83,19 @@ import { work } from "@cv"
   @media (width <= 700px) {
     time {
       text-align: right;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    h3 a  {
+      color: rgba(255, 255, 255, 0.9);
+    }
+    article h4 {
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    time {
+      color: rgba(255, 255, 255, 0.9);
     }
   }
 </style>
