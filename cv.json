@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "J. Yohan Tobon Cataño",
-    "label": "FullStack Developer con más de 3 años de experiencia.",
+    "label": "FullStack Developer +3 años de experiencia.",
     "image": "/yohan-tobon-cv/me.webp",
-    "email": "yohan.tob20@gmail.com",
-    "phone": "+57 000 0000",
+    "email": "yohan.tobon@hotmail.com",
+    "phone": "+57 304130 2345",
     "url": "https://betest.github.io/yohan-tobon-dev",
     "summary": "+3 años de experiencia como Desarrollador. Apasionado por la tecnologia, en constante busqueda de conocimiento, buscando elevar mi perfil profesional y dar valor agregado en todo momento.",
     "location": {
@@ -34,7 +34,7 @@
       "url": "https://qvisiontechnologies.com/es/inicio-es",
       "startDate": "2022-08-24",
       "endDate": null,
-      "summary": "Analisis y refactorización código legacy, implementación de mejoras, desarrollo de historias de usuario. Ajuste modelo de datos, implementación sistema de pagos y pasarela de pagos. \nDjango rest framework - Postgresql - React - Jenkins - Gitlab.",
+      "summary": "Analisis y refactorización código legacy, implementación de mejoras, desarrollo de historias de usuario. Ajuste modelo de datos, implementación sistema de pagos y pasarela de pagos. \nDjango rest framework - JEE - JSF - Oracle - Postgresql - React - Jenkins - Gitlab - SVN.",
       "highlights": [
         "Started the company"
       ]
@@ -70,8 +70,8 @@
       "url": "https://www.cesde.edu.co",
       "area": "Desarrollo de Software",
       "studyType": "Técnica profesional",
-      "startDate": "2017-06-01",
-      "endDate": "2019-06-17",
+      "startDate": "2018-06-01",
+      "endDate": "2020-06-17",
       "score": "4.0",
       "courses": [
         ""
