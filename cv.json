@@ -66,6 +66,54 @@
   ],
   "education": [
     {
+      "institution": "Cisco",
+      "url": "https://www.credly.com/badges/4820f2a6-1cd4-4ce9-a551-d1c41b65e5ee/linked_in_profile",
+      "area": "Python Essentials 1",
+      "studyType": "Curso",
+      "startDate": "2023-08-01",
+      "endDate": "2023-09-23",
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "Vue School",
+      "url": "https://api.masteringpinia.com/certificates/9cf105bb-74bc-494d-af49-e139254b2447/download?signature=8bd1b9addda66f02d79890b068d233b0dfe53c251cfb153e032373854aecf155",
+      "area": "Certified Pinia Master",
+      "studyType": "Curso",
+      "startDate": "2024-07-15",
+      "endDate": "2024-09-06",
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "Politécnico de Colombia",
+      "url": "https://www.linkedin.com/in/yohan-tobon-catano/details/certifications/1725759333640/single-media-viewer/?profileId=ACoAAAjpqUsB0vXN5WVTOs1gDAUUUPVn636CIig",
+      "area": "Programación en Java",
+      "studyType": "Curso",
+      "startDate": "2024-07-27",
+      "endDate": "2024-08-30",
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-1a34e0eb-876d-4e42-9534-aa869a6ca7d9/",
+      "area": "NestJs: Microservicios con NestJs, AWS, Docker Profesional",
+      "studyType": "Curso",
+      "startDate": "2023-11-03",
+      "endDate": "2023-11-06",
+      "score": "4.0",
+      "courses": [
+        ""
+      ]
+    },
+    {
       "institution": "CESDE",
       "url": "https://www.cesde.edu.co",
       "area": "Desarrollo de Software",
