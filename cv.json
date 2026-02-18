@@ -33,7 +33,7 @@
       "position": "Analista Desarrollo intermedio",
       "url": "https://qvisiontechnologies.com/es/inicio-es",
       "startDate": "2022-08-24",
-      "endDate": null,
+      "endDate": "2022-08-25",
       "summary": "Analisis y refactorización código legacy, implementación de mejoras, desarrollo de historias de usuario. Ajuste modelo de datos, implementación sistema de pagos y pasarela de pagos. \nDjango rest framework - JEE - JSF - Oracle - Postgresql - React - Jenkins - Gitlab - SVN",
       "highlights": [
         "Started the company"
