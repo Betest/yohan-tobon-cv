@@ -5,7 +5,7 @@
     "image": "/yohan-tobon-cv/me.webp",
     "email": "yohan.tobon@hotmail.com",
     "phone": "+57 304130 2345",
-    "url": "https://betest.github.io/yohan-tobon-dev",
+    "url": "https://betest.github.io/yohan-tobon-cv/",
     "summary": "Desarrollador de software con +5 años de experiencia construyendo backends y sistemas distribuidos, con foco en Python y JavaScript/TypeScript además de Java. Diseño microservicios escalables y arquitecturas event-driven (RabbitMQ, AWS SQS), y trabajo en entornos cloud y DevOps: administración de servidores Linux (VPS), AWS, Azure, Docker, Kubernetes y pipelines CI/CD. Actualmente desarrollo productos SaaS en Seeds Analytic (Shinkiro y Seeds Builder), apoyándome en herramientas de IA para desarrollo y buscando crecer hacia plataformas SaaS, soluciones event-driven y seguridad de la nube.",
     "location": {
       "address": "",
@@ -85,6 +85,18 @@
       "area": "Ingeniería de Software (en curso, modalidad virtual)",
       "studyType": "Pregrado",
       "startDate": "2026-01-01",
+      "endDate": null,
+      "score": "",
+      "courses": [
+        ""
+      ]
+    },
+    {
+      "institution": "Digital House",
+      "url": "https://www.digitalhouse.com/co",
+      "area": "Desarrollo Backend (en curso)",
+      "studyType": "Bootcamp",
+      "startDate": "2025-01-01",
       "endDate": null,
       "score": "",
       "courses": [
