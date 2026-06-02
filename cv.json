@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "J. Yohan Tobon Cataño",
-    "label": "FullStack Developer 5 años de experiencia.",
+    "label": "Desarrollador de Software · Backend · Cloud/DevOps · IA",
     "image": "/yohan-tobon-cv/me.webp",
     "email": "yohan.tobon@hotmail.com",
     "phone": "+57 304130 2345",
     "url": "https://betest.github.io/yohan-tobon-dev",
-    "summary": "5 años de experiencia como Desarrollador. Apasionado por la tecnologia, en constante busqueda de conocimiento, buscando elevar mi perfil profesional y dar valor agregado en todo momento.",
+    "summary": "Desarrollador de software con +5 años de experiencia construyendo backends y sistemas distribuidos, con foco en Python y JavaScript/TypeScript además de Java. Diseño microservicios escalables y arquitecturas event-driven (RabbitMQ, AWS SQS), y trabajo en entornos cloud y DevOps: administración de servidores Linux (VPS), AWS, Azure, Docker, Kubernetes y pipelines CI/CD. Actualmente desarrollo productos SaaS en Seeds Analytic (Shinkiro y Seeds Builder), apoyándome en herramientas de IA para desarrollo y buscando crecer hacia plataformas SaaS, soluciones event-driven y seguridad de la nube.",
     "location": {
       "address": "",
       "postalCode": "050010",
@@ -29,26 +29,40 @@
   },
   "work": [
     {
+      "name": "Seeds Analytic",
+      "position": "Desarrollador de Software (productos propios)",
+      "url": "https://seedsanalytic.com",
+      "startDate": "2025-08-25",
+      "endDate": null,
+      "summary": "Desarrollo de productos SaaS propios. Shinkiro Agents: plataforma de agentes de IA con orquestación en LangGraph (TypeScript), microservicios en Go sobre PostgreSQL, frontend en Next.js, autenticación con WorkOS (SSO/OAuth2) y pagos con Dodo Payments. Seeds Builder: SaaS schema-driven para crear y publicar sitios web sin código (Better Auth, plantillas multi-vertical, SEO bilingüe) desplegado en el edge de Cloudflare (Pages + Workers). Trabajo bajo Spec-Driven Development (SDD) y desarrollo asistido por IA (Claude Code), con CI/CD en GitLab y despliegue continuo (Railway, Cloudflare).\nStack: TypeScript, LangGraph, Go, PostgreSQL, Next.js, Cloudflare, WorkOS, Better Auth, GitLab CI, Railway",
+      "highlights": []
+    },
+    {
       "name": "QVision Technologies",
-      "position": "Analista Desarrollo intermedio",
+      "position": "Analista de Desarrollo Intermedio",
       "url": "https://qvisiontechnologies.com/es/inicio-es",
       "startDate": "2022-08-24",
       "endDate": "2025-08-25",
-      "summary": "Analisis y refactorización código legacy, implementación de mejoras, desarrollo de historias de usuario. Ajuste modelo de datos, implementación sistema de pagos y pasarela de pagos. \nDjango rest framework - JEE - JSF - Oracle - Postgresql - React - Jenkins - Gitlab - SVN",
-      "highlights": [
-        "Started the company"
-      ]
+      "summary": "Implementé en Java/Spring Boot jobs con Spring Quartz en modo clúster (alta disponibilidad y failover), con JobStore persistente en base de datos y control para que cada job no se reejecutara hasta terminar el anterior, dando estabilidad a procesos críticos del negocio. Construí e integré microservicios con comunicación asíncrona (RabbitMQ, AWS SQS), reduciendo el acoplamiento entre sistemas. Desarrollé un marketplace con backend en Django REST (Python) y frontend en React: pagos con ePayco, integración de APIs REST/SOAP y optimización de performance. Despliegues en Docker con CI/CD en Jenkins y GitLab.\nStack: Java, Spring Boot, Django REST, QueryDSL, PostgreSQL, Oracle, RabbitMQ, AWS SQS, Docker, Jenkins, GitLab",
+      "highlights": []
+    },
+    {
+      "name": "Proyectos independientes",
+      "position": "Desarrollador FullStack & IA (Freelance)",
+      "url": "#",
+      "startDate": "2024-01-01",
+      "endDate": "2024-07-01",
+      "summary": "Desarrollé chatbots y agentes con IA usando LangGraph + OpenAI sobre Python (FastAPI), desplegando soluciones conversacionales para pymes vía WhatsApp y Twilio. Construí un sistema de facturación automatizado con procesamiento de imágenes (OCR + OpenCV) y pipeline batch (Spring Batch). Diseñé soluciones tipo SaaS con múltiples integraciones y automatización de procesos de negocio.\nStack: Python, FastAPI, LangGraph, OpenAI, OpenCV, Spring Batch, PostgreSQL",
+      "highlights": []
     },
     {
       "name": "Cidenet",
-      "position": "Analista Desarrollo",
+      "position": "Analista de Desarrollo",
       "url": "https://cidenet.com.co",
-      "startDate": "2020-01",
-      "endDate": "2021-11",
-      "summary": "Acompañamiento en historias de usuarios, correcciones y desarrollo de requerimientos de inicio a fin, pruebas unitarias, pruebas de conceptos para nuevas funcionalidades. \nJava - FastAPI - Lambdas - Elastic Search - PostgreSQL - Angular - React - AWS - Azure - Azure Devops",
-      "highlights": [
-        "Started the company"
-      ]
+      "startDate": "2020-01-01",
+      "endDate": "2021-11-01",
+      "summary": "Desarrollo end-to-end de funcionalidades backend con Spring Boot y FastAPI (Python) bajo metodologías ágiles. Implementé y operé componentes en la nube (AWS: VPC, Load Balancer, Lambdas; Azure) con Azure DevOps para CI/CD. Trabajo multi-stack (Java + Python + Angular/React) y búsquedas con Elasticsearch. Implementé autenticación con Keycloak (SSO/OAuth2) en pruebas de concepto para nuevas funcionalidades.\nStack: Java, Python (FastAPI), AWS, Azure, Azure DevOps, Keycloak, Elasticsearch, PostgreSQL, Angular, React",
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -65,6 +79,18 @@
     }
   ],
   "education": [
+    {
+      "institution": "Politécnico Grancolombiano",
+      "url": "https://www.poligran.edu.co",
+      "area": "Ingeniería de Software (en curso, modalidad virtual)",
+      "studyType": "Pregrado",
+      "startDate": "2026-01-01",
+      "endDate": null,
+      "score": "",
+      "courses": [
+        ""
+      ]
+    },
     {
       "institution": "Cisco",
       "url": "https://www.credly.com/badges/4820f2a6-1cd4-4ce9-a551-d1c41b65e5ee/linked_in_profile",
@@ -422,6 +448,59 @@
         "Store management",
         "Libreria"
       ]
+    },
+    {
+      "name": "Go",
+      "level": "Intermedio",
+      "keywords": [
+        "Backend",
+        "Microservicios"
+      ]
+    },
+    {
+      "name": "LangGraph",
+      "level": "Intermedio",
+      "keywords": [
+        "IA",
+        "Agentes",
+        "LLMs"
+      ]
+    },
+    {
+      "name": "FastAPI",
+      "level": "Intermedio",
+      "keywords": [
+        "Backend",
+        "Python",
+        "APIs"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos",
+        "SQL",
+        "Backend"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "level": "Intermedio",
+      "keywords": [
+        "DevOps",
+        "Contenedores",
+        "Orquestación"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "level": "Intermedio",
+      "keywords": [
+        "Edge",
+        "Pages",
+        "Workers"
+      ]
     }
   ],
   "languages": [
@@ -451,13 +530,46 @@
   ],
   "projects": [
     {
-      "name": "Por subir...",
+      "name": "Shinkiro Agents",
       "isActive": true,
-      "description": "En 🛠️🔧🪛",
+      "description": "Plataforma SaaS de agentes de IA con orquestación en LangGraph (TypeScript) y microservicios en Go sobre PostgreSQL. Frontend en Next.js, autenticación con WorkOS (SSO/OAuth2) y pagos con Dodo Payments.",
       "highlights": [
-        "En desarrollo"
+        "LangGraph",
+        "TypeScript",
+        "Go",
+        "Next.js",
+        "PostgreSQL",
+        "WorkOS"
       ],
-      "url": "#",
+      "url": "https://shinkiro.seedsanalytic.com",
+      "github": ""
+    },
+    {
+      "name": "Seeds Builder",
+      "isActive": true,
+      "description": "SaaS schema-driven para crear y publicar sitios web sin código, con autenticación Better Auth, plantillas multi-vertical y SEO bilingüe. Desplegado en el edge de Cloudflare (Pages + Workers).",
+      "highlights": [
+        "TypeScript",
+        "Cloudflare Pages",
+        "Cloudflare Workers",
+        "Better Auth",
+        "SEO"
+      ],
+      "url": "https://seeds-builder.pages.dev",
+      "github": ""
+    },
+    {
+      "name": "Dots&Roll",
+      "isActive": true,
+      "description": "Juego multijugador que combina la mecánica clásica de 'dots and boxes' con trivias y power-ups estratégicos. Partidas rápidas para competir contra amigos o jugadores de todo el mundo.",
+      "highlights": [
+        "Flutter",
+        "FastAPI",
+        "Celery",
+        "Redis",
+        "PostgreSQL"
+      ],
+      "url": "https://dotsroll.seedsanalytic.com",
       "github": ""
     }
   ]

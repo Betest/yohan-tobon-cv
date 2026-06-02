@@ -95,7 +95,7 @@ interface Education {
   area: string
   studyType: string
   startDate: DateStr
-  endDate: DateStr
+  endDate: DateStr | null
   score: string
   courses: Array<string>
 }
