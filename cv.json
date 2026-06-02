@@ -43,7 +43,7 @@
       "url": "https://qvisiontechnologies.com/es/inicio-es",
       "startDate": "2022-08-24",
       "endDate": "2025-08-25",
-      "summary": "Implementé en Java/Spring Boot jobs con Spring Quartz en modo clúster (alta disponibilidad y failover), con JobStore persistente en base de datos y control para que cada job no se reejecutara hasta terminar el anterior, dando estabilidad a procesos críticos del negocio. Construí e integré microservicios con comunicación asíncrona (RabbitMQ, AWS SQS), reduciendo el acoplamiento entre sistemas. Desarrollé un marketplace con backend en Django REST (Python) y frontend en React: pagos con ePayco, integración de APIs REST/SOAP y optimización de performance. Despliegues en Docker con CI/CD en Jenkins y GitLab.\nStack: Java, Spring Boot, Django REST, QueryDSL, PostgreSQL, Oracle, RabbitMQ, AWS SQS, Docker, Jenkins, GitLab",
+      "summary": "Implementé en Java/Spring Boot jobs con Spring Quartz en modo clúster (alta disponibilidad y failover), con JobStore persistente en base de datos y control para que cada job no se reejecutara hasta terminar el anterior, dando estabilidad a procesos críticos del negocio. Construí e integré microservicios con comunicación asíncrona (RabbitMQ, AWS SQS), reduciendo el acoplamiento entre sistemas. Desarrollé un marketplace con backend en Django REST (Python) y frontend en React: pagos con ePayco, integración de APIs REST/SOAP y optimización de performance. Despliegues en Docker con CI/CD en Jenkins y GitLab.\nStack: Java, Spring Boot, Django REST, Pytest, QueryDSL, PostgreSQL, Oracle, RabbitMQ, AWS SQS, Docker, Jenkins, GitLab",
       "highlights": []
     },
     {
@@ -52,7 +52,7 @@
       "url": "#",
       "startDate": "2024-01-01",
       "endDate": "2024-07-01",
-      "summary": "Desarrollé chatbots y agentes con IA usando LangGraph + OpenAI sobre Python (FastAPI), desplegando soluciones conversacionales para pymes vía WhatsApp y Twilio. Construí un sistema de facturación automatizado con procesamiento de imágenes (OCR + OpenCV) y pipeline batch (Spring Batch). Diseñé soluciones tipo SaaS con múltiples integraciones y automatización de procesos de negocio.\nStack: Python, FastAPI, LangGraph, OpenAI, OpenCV, Spring Batch, PostgreSQL",
+      "summary": "Desarrollé chatbots y agentes con IA usando LangGraph + OpenAI sobre Python (FastAPI), desplegando soluciones conversacionales para pymes vía WhatsApp y Twilio. Construí un sistema de facturación automatizado con procesamiento de imágenes (OCR + OpenCV) y pipeline batch (Spring Batch). Diseñé soluciones tipo SaaS con múltiples integraciones y automatización de procesos de negocio.\nStack: Python, FastAPI, Pytest, LangGraph, OpenAI, OpenCV, Spring Batch, PostgreSQL",
       "highlights": []
     },
     {
@@ -61,7 +61,7 @@
       "url": "https://cidenet.com.co",
       "startDate": "2020-01-01",
       "endDate": "2021-11-01",
-      "summary": "Desarrollo end-to-end de funcionalidades backend con Spring Boot y FastAPI (Python) bajo metodologías ágiles. Implementé y operé componentes en la nube (AWS: VPC, Load Balancer, Lambdas; Azure) con Azure DevOps para CI/CD. Trabajo multi-stack (Java + Python + Angular/React) y búsquedas con Elasticsearch. Implementé autenticación con Keycloak (SSO/OAuth2) en pruebas de concepto para nuevas funcionalidades.\nStack: Java, Python (FastAPI), AWS, Azure, Azure DevOps, Keycloak, Elasticsearch, PostgreSQL, Angular, React",
+      "summary": "Desarrollo end-to-end de funcionalidades backend con Spring Boot y FastAPI (Python) bajo metodologías ágiles. Implementé y operé componentes en la nube (AWS: VPC, Load Balancer, Lambdas; Azure) con Azure DevOps para CI/CD. Trabajo multi-stack (Java + Python + Angular/React) y búsquedas con Elasticsearch. Implementé autenticación con Keycloak (SSO/OAuth2) en pruebas de concepto para nuevas funcionalidades.\nStack: Java, Python (FastAPI), Pytest, AWS, Azure, Azure DevOps, Keycloak, Elasticsearch, PostgreSQL, Angular, React",
       "highlights": []
     }
   ],
@@ -485,6 +485,15 @@
         "Backend",
         "Python",
         "APIs"
+      ]
+    },
+    {
+      "name": "Pytest",
+      "level": "Intermedio",
+      "keywords": [
+        "Testing",
+        "Python",
+        "QA"
       ]
     },
     {
