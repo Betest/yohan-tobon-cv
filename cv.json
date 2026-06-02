@@ -560,7 +560,9 @@
         "Go",
         "Next.js",
         "PostgreSQL",
-        "WorkOS"
+        "WorkOS",
+        "SDD",
+        "MCP-Servers"
       ],
       "url": "https://shinkiro.seedsanalytic.com",
       "github": ""
@@ -574,7 +576,9 @@
         "Cloudflare Pages",
         "Cloudflare Workers",
         "Better Auth",
-        "SEO"
+        "SEO",
+        "SDD",
+        "MCP-Servers"
       ],
       "url": "https://seeds-builder.pages.dev",
       "github": ""
@@ -588,7 +592,9 @@
         "FastAPI",
         "Celery",
         "Redis",
-        "PostgreSQL"
+        "PostgreSQL",
+        "SDD",
+        "MCP-Servers"
       ],
       "url": "https://dotsroll.seedsanalytic.com",
       "github": ""
