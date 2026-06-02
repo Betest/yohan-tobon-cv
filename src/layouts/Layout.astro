@@ -46,6 +46,27 @@ const enHref = base.endsWith("/") ? `${base}en` : `${base}/en`
       <a href={enHref} class={lang === "en" ? "active" : ""} hreflang="en">EN</a>
     </nav>
     <slot />
+
+    {/* Tag anything injected at runtime (e.g. the chat widget) as no-print */}
+    <script is:inline>
+      new MutationObserver((mutations) => {
+        for (const mutation of mutations) {
+          for (const node of mutation.addedNodes) {
+            if (node.nodeType === 1) node.classList?.add("no-print")
+          }
+        }
+      }).observe(document.body, { childList: true })
+    </script>
+
+    {/* Shinkiro Agents chat widget */}
+    <script
+      is:inline
+      src="https://web-channel-production.up.railway.app/widget.js"
+      data-key="RhCwkqYwQ4wE6hKYrhtrMVOkU24_3XU0gViYUNm4vqw"
+      data-color="#6366f1"
+      data-position="bottom-right"
+      data-title="Chat"
+      async></script>
   </body>
 </html>
 
