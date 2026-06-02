@@ -1,11 +1,17 @@
 ---
 import GitHub from "@/icons/GitHub.astro"
 import Section from "../Section.astro"
+import type { CV } from "@/cv"
 
-import { projects } from "@cv"
+interface Props {
+  projects: CV["projects"]
+  title: string
+}
+
+const { projects, title } = Astro.props
 ---
 
-<Section title="Proyectos">
+<Section title={title}>
   <ul>
     {
       projects.map(

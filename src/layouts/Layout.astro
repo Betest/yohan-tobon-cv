@@ -1,17 +1,23 @@
 ---
-import { basics } from "@cv"
+import type { CV } from "@/cv"
 
 interface Props {
   title: string
+  basics: CV["basics"]
+  lang: "es" | "en"
 }
 
-const { title } = Astro.props
+const { title, basics, lang } = Astro.props
 
 const { image, summary, url } = basics
+
+const base = import.meta.env.BASE_URL
+const esHref = base
+const enHref = base.endsWith("/") ? `${base}en` : `${base}/en`
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <title>{title}</title>
@@ -34,6 +40,11 @@ const { image, summary, url } = basics
     <meta name="twitter:image" content="" />
   </head>
   <body>
+    <nav class="lang-switch no-print" aria-label="Language">
+      <a href={esHref} class={lang === "es" ? "active" : ""} hreflang="es">ES</a>
+      <span>/</span>
+      <a href={enHref} class={lang === "en" ? "active" : ""} hreflang="en">EN</a>
+    </nav>
     <slot />
   </body>
 </html>
@@ -104,6 +115,56 @@ const { image, summary, url } = basics
 
   .print {
     display: none !important;
+  }
+
+  .lang-switch {
+    position: fixed;
+    top: 16px;
+    right: 16px;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+
+  .lang-switch a {
+    color: #999;
+    padding: 2px 4px;
+    border-radius: 4px;
+  }
+
+  .lang-switch a.active {
+    color: #111;
+  }
+
+  .lang-switch a:hover {
+    color: #111;
+  }
+
+  .lang-switch span {
+    color: #ccc;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .lang-switch {
+      background: #000;
+      border-color: #333;
+    }
+
+    .lang-switch a {
+      color: #888;
+    }
+
+    .lang-switch a.active,
+    .lang-switch a:hover {
+      color: rgba(255, 255, 255, 0.95);
+    }
   }
 
   @media print {

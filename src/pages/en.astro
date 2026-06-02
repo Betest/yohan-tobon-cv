@@ -1,9 +1,9 @@
 ---
 import CvContent from "@/components/CvContent.astro"
 import type { CV } from "@/cv"
-import cvData from "@cv"
+import cvData from "../../cv_english.json"
 
 const cv = cvData as CV
 ---
 
-<CvContent cv={cv} lang="es" />
+<CvContent cv={cv} lang="en" />

@@ -1,10 +1,18 @@
 ---
 import Section from "../Section.astro"
+import type { CV } from "@/cv"
 
-import { education } from "@cv"
+interface Props {
+  education: CV["education"]
+  title: string
+  certificateLabel: string
+}
+
+const { education, title, certificateLabel } = Astro.props
+const COURSE_TYPES = ["Curso", "Course"]
 ---
 
-<Section title="Educación">
+<Section title={title}>
   <ul>
     {
       education.map(({ institution, startDate, endDate, area, url, studyType }) => {
@@ -26,7 +34,9 @@ import { education } from "@cv"
               <footer>
                 <p>{area}</p>
                 {
-                  studyType == "Curso" ? <a href={url}>Certificado</a> : null
+                  COURSE_TYPES.includes(studyType) ? (
+                    <a href={url}>{certificateLabel}</a>
+                  ) : null
                 }
               </footer>
             </article>

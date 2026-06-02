@@ -1,5 +1,5 @@
 ---
-import { skills } from "@cv"
+import type { CV } from "@/cv"
 import Section from "../Section.astro"
 import HTML from "@/icons/html.astro"
 import CSS from "@/icons/css.astro"
@@ -58,9 +58,16 @@ const SKILLS_ICONS: Record<string, any> = {
   Pinia,
   Redux,
 }
+
+interface Props {
+  skills: CV["skills"]
+  title: string
+}
+
+const { skills, title } = Astro.props
 ---
 
-<Section title="Habilidades">
+<Section title={title}>
   <ul>
     {
       skills.map(({ name }) => {

@@ -43,7 +43,7 @@
       "url": "https://qvisiontechnologies.com/en/home",
       "startDate": "2022-08-24",
       "endDate": "2025-08-25",
-      "summary": "Implemented Spring Quartz jobs in Java/Spring Boot in cluster mode (high availability and failover), with a persistent database JobStore and control to prevent a job from re-running until the previous one finished, bringing stability to critical business processes. Built and integrated microservices with asynchronous communication (RabbitMQ, AWS SQS), reducing coupling between systems. Developed a marketplace with a Django REST (Python) backend and a React frontend: ePayco payments, REST/SOAP API integration and performance optimization. Docker deployments with CI/CD on Jenkins and GitLab.\nStack: Java, Spring Boot, Django REST, Pytest, QueryDSL, PostgreSQL, Oracle, RabbitMQ, AWS SQS, Docker, Jenkins, GitLab",
+      "summary": "Implemented Spring Quartz jobs in Java/Spring Boot in cluster mode (high availability and failover), with a persistent database JobStore and control to prevent a job from re-running until the previous one finished, bringing stability to critical business processes. Built and integrated microservices with asynchronous communication (RabbitMQ), reducing coupling between systems. Developed a marketplace with a Django REST (Python) backend and a React frontend: ePayco payments, REST/SOAP API integration and performance optimization. Docker deployments with CI/CD on Jenkins and GitLab.\nStack: Java, Spring Boot, Django REST, Pytest, QueryDSL, PostgreSQL, Oracle, RabbitMQ, Docker, Jenkins, GitLab",
       "highlights": []
     },
     {
@@ -61,7 +61,7 @@
       "url": "https://cidenet.com.co",
       "startDate": "2020-01-01",
       "endDate": "2021-11-01",
-      "summary": "End-to-end development of backend features with Spring Boot and FastAPI (Python) under agile methodologies. Implemented and operated cloud components (AWS: VPC, Load Balancer, Lambdas; Azure) with Azure DevOps for CI/CD. Multi-stack work (Java + Python + Angular/React) and search with Elasticsearch. Implemented Keycloak authentication (SSO/OAuth2) in proofs of concept for new features.\nStack: Java, Python (FastAPI), Pytest, AWS, Azure, Azure DevOps, Keycloak, Elasticsearch, PostgreSQL, Angular, React",
+      "summary": "End-to-end development of backend features with Spring Boot and FastAPI (Python) under agile methodologies. Implemented and operated cloud components (AWS: VPC, SQS, Load Balancer, Lambdas; Azure) with Azure DevOps for CI/CD. Multi-stack work (Java + Python + Angular/React) and search with Elasticsearch. Implemented Keycloak authentication (SSO/OAuth2) in production.\nStack: Java, Python (FastAPI), Pytest, AWS, AWS SQS, Azure, Azure DevOps, Keycloak, Elasticsearch, PostgreSQL, Angular, React",
       "highlights": []
     }
   ],

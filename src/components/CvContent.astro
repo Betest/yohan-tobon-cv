@@ -1,0 +1,72 @@
+---
+import Layout from "@/layouts/Layout.astro"
+import About from "@/components/sections/About.astro"
+import Education from "@/components/sections/Education.astro"
+import Experience from "@/components/sections/Experience.astro"
+import Hero from "@/components/sections/Hero.astro"
+import Projects from "@/components/sections/Projects.astro"
+import Skills from "@/components/sections/Skills.astro"
+import KeyboardManager from "@/components/KeyboardManager.astro"
+import type { CV } from "@/cv"
+
+interface Props {
+  cv: CV
+  lang: "es" | "en"
+}
+
+const { cv, lang } = Astro.props
+const { basics } = cv
+const { name, label } = basics
+
+const T = {
+  es: {
+    about: "Sobre mí",
+    experience: "Experiencia laboral",
+    education: "Educación",
+    projects: "Proyectos",
+    skills: "Habilidades",
+    certificate: "Certificado",
+  },
+  en: {
+    about: "About",
+    experience: "Work experience",
+    education: "Education",
+    projects: "Projects",
+    skills: "Skills",
+    certificate: "Certificate",
+  },
+}[lang]
+---
+
+<Layout title={`FullStack ${name} - ${label}`} basics={basics} lang={lang}>
+  <main>
+    <Hero basics={basics} lang={lang} />
+    <About basics={basics} title={T.about} />
+    <Experience work={cv.work} title={T.experience} />
+    <Education
+      education={cv.education}
+      title={T.education}
+      certificateLabel={T.certificate}
+    />
+    <div class="no-print">
+      <Projects projects={cv.projects} title={T.projects} />
+    </div>
+    <Skills skills={cv.skills} title={T.skills} />
+  </main>
+
+  <KeyboardManager basics={basics} lang={lang} />
+</Layout>
+
+<style>
+  main {
+    padding: 4rem;
+    margin: auto;
+    width: 100%;
+  }
+
+  @media (width <= 700px) {
+    main {
+      padding: 2rem;
+    }
+  }
+</style>
